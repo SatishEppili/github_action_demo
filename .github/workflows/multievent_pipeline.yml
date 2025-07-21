@@ -7,6 +7,7 @@ jobs:
   on push:
     runs-on: ubuntu-latest
     steps:
-      - name: running on main push
+      - name: "running on main push"
         run: echo "Running on master push"
+
 
