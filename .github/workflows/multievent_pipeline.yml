@@ -1,8 +1,8 @@
 name: multi event pipeline / workflow
-'on':
+on:
   push:
     branches:
-      - master: null
+      - main:
 jobs:
   on push:
     runs-on: ubuntu-latest
