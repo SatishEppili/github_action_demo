@@ -2,7 +2,7 @@ name: multi event pipeline / workflow
 on:
   push:
     branches:
-      - master
+      - main
       
 jobs:
     on-push:
