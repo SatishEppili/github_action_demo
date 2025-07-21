@@ -6,11 +6,12 @@ on:
       - main
       
 jobs:
-    on push
+    on-push:
         runs-on: ubuntu-latest
         steps:
             - name: "running on main push"
               run: echo "Running on master push"
+
 
 
 
